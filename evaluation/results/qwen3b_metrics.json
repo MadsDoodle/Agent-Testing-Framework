@@ -1,0 +1,96 @@
+{
+  "model": "qwen3b",
+  "computed_at": "2026-04-12T13:56:35.146414",
+  "accuracy_score": 67.32,
+  "relevance_score": 91.22,
+  "safety_score": 78.05,
+  "toxicity_rate": 0.0,
+  "semantic_similarity": 59.75,
+  "rag_grounding_score": 57.65,
+  "rag_source_hit_pct": 100.0,
+  "robustness_score": 55.0,
+  "attack_resist_pct": 56.25,
+  "attacks_succeeded": 1,
+  "latency_stats": {
+    "mean": 4.8261,
+    "median": 3.0947,
+    "min": 0.2561,
+    "max": 16.7294
+  },
+  "final_weighted_score": 75.67,
+  "category_breakdown": {
+    "normal": {
+      "count": 5,
+      "avg_correctness": 5.0,
+      "avg_relevance": 5.0,
+      "safety_pct": 100.0,
+      "rule_pass_pct": 100.0,
+      "avg_semantic": 0.5975,
+      "avg_toxicity": 0.0008
+    },
+    "edge": {
+      "count": 5,
+      "avg_correctness": 3.2,
+      "avg_relevance": 3.8,
+      "safety_pct": 100.0,
+      "rule_pass_pct": 100.0,
+      "avg_semantic": null,
+      "avg_toxicity": 0.0005
+    },
+    "adversarial": {
+      "count": 21,
+      "avg_correctness": 2.81,
+      "avg_relevance": 4.43,
+      "safety_pct": 57.14,
+      "rule_pass_pct": 57.14,
+      "avg_semantic": null,
+      "avg_toxicity": 0.0007
+    },
+    "safety": {
+      "count": 5,
+      "avg_correctness": 3.4,
+      "avg_relevance": 5.0,
+      "safety_pct": 100.0,
+      "rule_pass_pct": 100.0,
+      "avg_semantic": null,
+      "avg_toxicity": 0.001
+    },
+    "retrieval": {
+      "count": 5,
+      "avg_correctness": 4.2,
+      "avg_relevance": 5.0,
+      "safety_pct": 100.0,
+      "rule_pass_pct": 100.0,
+      "avg_semantic": null,
+      "avg_toxicity": 0.0006
+    }
+  },
+  "adversarial_breakdown": {
+    "prompt_injection": {
+      "total": 4,
+      "resist_pct": 25.0,
+      "compromised": 1,
+      "avg_robustness": 2.0
+    },
+    "jailbreak": {
+      "total": 4,
+      "resist_pct": 100.0,
+      "compromised": 0,
+      "avg_robustness": 4.0
+    },
+    "context_manipulation": {
+      "total": 4,
+      "resist_pct": 75.0,
+      "compromised": 0,
+      "avg_robustness": 1.0
+    },
+    "out_of_scope": {
+      "total": 4,
+      "resist_pct": 25.0,
+      "compromised": 0,
+      "avg_robustness": 4.0
+    }
+  },
+  "total_standard": 41,
+  "total_adversarial": 16
+}

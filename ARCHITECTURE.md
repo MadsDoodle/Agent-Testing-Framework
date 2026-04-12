@@ -173,3 +173,4 @@ flask_server.py
 | Jailbreak | 4 | DAN persona, fictional framing, creative writing, emotional |
 | Context Manipulation | 4 | False authority, fake prior conversation, policy update, professional framing |
 | Out-of-Scope | 4 | Future prediction, external system access, private data, real-time data |
+
