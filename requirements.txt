@@ -1,0 +1,26 @@
+# Core ML
+torch==2.10.0
+accelerate==1.13.0
+bitsandbytes==0.49.2
+transformers==5.0.0
+
+# RAG
+sentence-transformers==2.7.0
+faiss-cpu==1.8.0
+
+# Evaluation
+detoxify==0.5.2
+
+# API / Serving
+openai==1.30.0
+flask==3.0.3
+requests==2.31.0
+
+# UI
+gradio==4.30.0
+
+# Utilities
+numpy==1.26.4
+matplotlib==3.8.4
+reportlab==4.1.0
+Pillow==10.3.0
