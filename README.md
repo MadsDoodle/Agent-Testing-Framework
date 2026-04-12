@@ -12,7 +12,7 @@ robustness testing — with a live Gradio dashboard.
 
 ## 🏗️ Architecture Diagram
 
-See [`SYSTEM_DIAGRAM.md`](SYSTEM_DIAGRAM.md) for the full Mermaid flowchart.
+See [`ARCHITECTURE.md`](ARCHITECTURE.md) for the full Mermaid flowchart of the system design as well as the system architecture.
 
 High-level pipeline:
 ```
@@ -79,6 +79,9 @@ The framework implements **4 layers of safety guardrails**:
 
 ```
 repo/
+├── data/                    # test_cases.json (generated)
+├── evaluation/              # Results and logs (generated)
+├── plots/                   # Visualization outputs
 ├── src/
 │   ├── config.py            # CFG dict, directory setup
 │   ├── test_cases.py        # 25 standard + 16 adversarial test cases
