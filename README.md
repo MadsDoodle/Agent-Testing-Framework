@@ -116,7 +116,7 @@ repo/
 
 ### Option A — Google Colab (Recommended, T4 GPU)
 
-1. Open the notebook: `notebooks/06_Agent_testing_framework.ipynb`
+1. Open the notebook: `notebooks/Agent_testing_framework.ipynb`
 2. Set runtime to **T4 GPU**: Runtime → Change runtime type → T4
 3. Run all cells top to bottom
 4. The Gradio UI launches automatically with a public share link
